@@ -1,0 +1,223 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #153677, #4e085f);
+  padding: 10px;
+}
+
+.todo-app{
+  width: 100%;
+  max-width: 540px;
+  background: #fff;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
+}
+
+.todo-app h2{
+  color: #002765;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.todo-app h2 img{
+  width: 30px;
+  margin-left: 10px;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+input{
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+}
+
+button{
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: #ff5945;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+
+}
+
+ul li{
+  list-style: none;
+  font-size: 17px;
+  padding: 12px 8px 12px 50px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
+
+ul li::before{
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: 20px; 
+  border-radius: 50%;
+  background-image: url(images/circle.svg);
+  background-size: cover;
+  background-position: center;
+  top: 12px;
+  left: 8px;
+}
+
+ul li.checked{
+  color: rgb(0, 0, 0);
+  text-decoration: line-through;
+}
+
+ul li.checked::before{
+  background-image: url(images/check-circle.svg);
+}
+ul li span{
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+/*
+ul li span:hover{
+  background: #edeef0;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+/* fix */
+
+Sort-By{
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: #252525;
+  color: #fff;
+  font-size: 16px;    cursor: pointer;
+  border-radius: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav {
+  color: rgb(0, 0, 0);        /* Nav bar is white on very dark gray */
+  background-color: var(--accent);
+  padding: 0.75rem;       /* Give the nav bar some internal padding */
+}
+
+nav a {
+  color: rgb(255, 255, 255);    /* Links in the nav bar are light blue instead of white */
+  text-decoration: none;      /* Don't underline links in the nav bar */
+}
+
+/* Apply CSS reset to remove default padding and margin on the ul element */
+.nav-list {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex; /* Use flexbox for layout */
+justify-content: space-between; /* Distribute items evenly */
+background-color: var(--light-background-color); /* Background color for the navbar */
+padding: 10px 20px; /* Add horizontal padding for spacing */
+}
+
+/* Style the list items */
+.nav-list li {
+display: inline; /* Remove inline-block to eliminate spacing between items */
+}
+
+/* Style the links in the navbar */
+.nav-list a {
+text-decoration: none;
+color: var(--nav-link); /* Text color for links */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Style the list items as flex containers */
+    .task-item {
+        display: flex;
+        align-items: center; /* Vertically center align the date and text */
+        margin-bottom: 10px; /* Add some spacing between items */
+    }
+
+    /* Style the date span */
+    .task-date {
+        margin-right: 80px; /* Add some spacing between date and text */
+        font-size: 1em;
+    }
+
+    .task-date:focus{
+      outline: none;
+    }
+
+
+
+
+
+
+
+
+
+
+    
