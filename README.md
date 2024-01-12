@@ -18,7 +18,7 @@ For my webpage, I decided to go for a sleek, modern look. I added a gradient of 
 I also added white accents of the navigation bar and to-do list housing. I made a particular effort to add vector graphics to my webpage 
 for consistency across devices.
 <br>
-1. ![UML Diagram](https://github.com/BYU-ITC-210/lab-2b-Jackyroo42/tree/main/src/Markup_images/UML.png)
+1. ![UML Diagram](src/Markup_images/UML.png)
 <br>
 When you want to add a task to the to-do list, you must add both a date and text. Considering one field was empty, you would be prompted
 with an error message. Additionally, when you finish a task, you have the option of either adding a line through the task, or deleting it 
@@ -26,8 +26,8 @@ entirely. By crossing it out, you are able to keep the task in local storage, sa
 would be removed from local storage. 
 <br>
 
-2. ![Webpage](https://github.com/BYU-ITC-210/lab-2b-Jackyroo42/tree/main/src/Markup_images/Webpage.png)
-3. ![To-do list](https://github.com/BYU-ITC-210/lab-2b-Jackyroo42/tree/main/src/Markup_images/VectorGraphics.png)
+2. ![Webpage](src/Markup_images/Webpage.png)
+3. ![To-do list](src/Markup_images/VectorGraphics.png)
 
 ## Files used: 
 
